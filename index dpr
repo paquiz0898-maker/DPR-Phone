@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>DPRPhone - Recuperación de Datos</title>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    /* Encabezado */
+    header {
+      background: #ff6600;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .whatsapp-btn {
+      background: #25D366;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe57;
+    }
+
+    /* Hero principal */
+    .hero {
+      background: linear-gradient(rgba(255,102,0,0.8), rgba(255,102,0,0.8)),
+                  url("https://img.freepik.com/foto-gratis/concepto-tecnologia-fondo-telefono-roto_23-2149122825.jpg") center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+    }
+    .hero a.cta {
+      background: white;
+      color: #ff6600;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .hero a.cta:hover {
+      background: #f0f0f0;
+    }
+
+    /* Servicios */
+    .servicios {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px auto;
+      max-width: 1100px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      color: #cc5200;
+    }
+    .precio {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #ff6600;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #cc5200;
+    }
+
+    /* Sección Acerca de */
+    .about {
+      background: #f9f9f9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .about h2 {
+      color: #ff6600;
+      margin-bottom: 20px;
+    }
+    .about p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-size: 1.1em;
+      color: #444;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 0 15px;
+      font-size: 2em;
+      color: #ff6600;
+      transition: color 0.3s;
+    }
+    .social-links a:hover {
+      color: #cc5200;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #ff6600;
+      color: white;
+      text-align: center;
+    }
+    footer .whatsapp-btn {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <img src="logo_dprphone.png" alt="DPRPhone Logo">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#about">Acerca de Nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a class="whatsapp-btn" href="https://wa.me/5210000000000" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <h1>DPRPhone</h1>
+    <p>Especialistas en Recuperación de Datos de Teléfonos</p>
+    <a href="#servicios" class="cta">Ver Servicios</a>
+  </section>
+
+  <!-- Servicios -->
+  <section class="servicios" id="servicios">
+    <div class="card">
+      <h2>VIP</h2>
+      <p class="precio">$4,700</p>
+      <p>Servicio exclusivo, máxima seguridad y velocidad.</p>
+      <a href="https://wa.me/5210000000000" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Alta</h2>
+      <p class="precio">$3,500</p>
+      <p>Recuperación avanzada para teléfonos premium.</p>
+      <a href="https://wa.me/5210000000000" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Media</h2>
+      <p class="precio">$2,200</p>
+      <p>Recuperación confiable para equipos estándar.</p>
+      <a href="https://wa.me/5210000000000" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Baja</h2>
+      <p class="precio">$1,200</p>
+      <p>Servicio económico para dispositivos básicos.</p>
+      <a href="https://wa.me/5210000000000" target="_blank" class="btn">Solicitar</a>
+    </div>
+  </section>
+
+  <!-- Acerca de Nosotros -->
+  <section class="about" id="about">
+    <h2>Acerca de Nosotros</h2>
+    <p>En <strong>DPRPhone</strong> somos especialistas en recuperación de datos de teléfonos móviles 
+    de todas las gamas. Nos enfocamos en la seguridad, confianza y rapidez para que nunca pierdas 
+    tu información importante.</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/dpr_phone?igsh=MXZydG5oZ3J3eTY5dg==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@dprphone?_t=ZS-8zMNJHjBa3l&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto">
+    <p>📞 Tel: +52 000 000 0000 | ✉️ soporte@dprphone.com</p>
+    <a class="whatsapp-btn" href="https://wa.me/5210000000000" target="_blank">Escríbenos por WhatsApp</a>
+    <p>&copy; 2025 DPRPhone - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>

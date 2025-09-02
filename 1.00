@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DPRFON - Data Recovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ff6600;
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: #cc5200;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .servicios {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+        }
+        .card {
+            background: white;
+            color: #333;
+            border-radius: 10px;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #cc5200;
+        }
+        .precio {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff6600;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #cc5200;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #cc5200;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📱 DPRFON - Data Recovery</h1>
+        <p>Secure Phone Data Recovery Services</p>
+    </header>
+
+    <section class="servicios">
+        <div class="card">
+            <h2>VIP</h2>
+            <p class="precio">$4,700</p>
+            <p>Servicio exclusivo, máxima seguridad y velocidad.</p>
+            <a href="#" class="btn">Solicitar</a>
+        </div>
+        <div class="card">
+            <h2>Gama Alta</h2>
+            <p class="precio">$3,500</p>
+            <p>Recuperación avanzada para teléfonos premium.</p>
+            <a href="#" class="btn">Solicitar</a>
+        </div>
+        <div class="card">
+            <h2>Gama Media</h2>
+            <p class="precio">$2,200</p>
+            <p>Recuperación confiable para equipos estándar.</p>
+            <a href="#" class="btn">Solicitar</a>
+        </div>
+        <div class="card">
+            <h2>Gama Baja</h2>
+            <p class="precio">$1,200</p>
+            <p>Servicio económico para dispositivos básicos.</p>
+            <a href="#" class="btn">Solicitar</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>📞 Contacto: +52 000 000 0000 | ✉️ soporte@dprfon.com</p>
+        <p>&copy; 2025 DPRFON - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+<@sfrank😎>

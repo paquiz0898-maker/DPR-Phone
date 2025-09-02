@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>DPRPhone - Recuperación de Datos</title>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    /* Encabezado */
+    header {
+      background: #ff6600;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero principal con tu imagen y filtro naranja */
+    .hero {
+      background: linear-gradient(rgba(255,102,0,0.8), rgba(255,102,0,0.8)),
+                  url("sf log.png") center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+    }
+    .hero a.cta {
+      background: white;
+      color: #ff6600;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .hero a.cta:hover {
+      background: #f0f0f0;
+    }
+
+    /* Servicios */
+    .servicios {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px auto;
+      max-width: 1200px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      color: #cc5200;
+    }
+    .precio {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #ff6600;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #cc5200;
+    }
+
+    /* Social links dentro de cards */
+    .card .social-links a {
+      display: inline-block;
+      margin: 10px;
+      font-size: 1.8em;
+      color: #ff6600;
+      transition: color 0.3s;
+    }
+    .card .social-links a:hover {
+      color: #cc5200;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #ff6600;
+      color: white;
+      text-align: center;
+    }
+
+    /* Botón flotante WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe57;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <img src="logo_dprphone.png" alt="DPRPhone Logo">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#otros-servicios">Otros Servicios</a>
+      <a href="#about">Acerca de Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <h1>DPRPhone</h1>
+    <p>Especialistas en Recuperación de Datos de Teléfonos</p>
+    <a href="#otros-servicios" class="cta">Ver Servicios</a>
+  </section>
+
+  <!-- Servicios Recuperación -->
+  <section class="servicios" id="servicios">
+    <div class="card">
+      <h2>VIP</h2>
+      <p class="precio">$4,700</p>
+      <p>Servicio exclusivo, máxima seguridad y velocidad.</p>
+      <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Alta</h2>
+      <p class="precio">$3,500</p>
+      <p>Recuperación avanzada para teléfonos premium.</p>
+      <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Media</h2>
+      <p class="precio">$2,200</p>
+      <p>Recuperación confiable para equipos estándar.</p>
+      <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" target="_blank" class="btn">Solicitar</a>
+    </div>
+    <div class="card">
+      <h2>Gama Baja</h2>
+      <p class="precio">$1,200</p>
+      <p>Servicio económico para dispositivos básicos.</p>
+      <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" target="_blank" class="btn">Solicitar</a>
+    </div>
+
+    <!-- Recuadro Acerca de Nosotros -->
+    <div class="card" id="about">
+      <h2>Acerca de Nosotros</h2>
+      <p>En <strong>DPRPhone</strong> somos especialistas en recuperación de datos de teléfonos móviles 
+      de todas las gamas. Seguridad, confianza y rapidez garantizadas.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/dpr_phone?igsh=MXZydG5oZ3J3eTY5dg==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@dprphone?_t=ZS-8zMNJHjBa3l&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" target="_blank" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- Servicios Técnicos -->
+  <section class="otros-servicios" id="otros-servicios">
+    <h2 style="text-align:center; color:#ff6600; margin-top:50px;">Otros Servicios</h2>
+    <div class="servicios">
+      
+      <div class="card">
+        <h2>Restauración</h2>
+        <ul style="text-align:left; line-height:1.8;">
+          <li>🔧 Cambio de pantalla</li>
+          <li>🔋 Cambio de batería</li>
+          <li>🔊 Cambio de parlantes</li>
+          <li>⚡ Centro de carga</li>
+        </ul>
+        <a href="https://wa.me/524612574352?text=Hola,%20quiero%20informes%20sobre%20restauración%20📱" target="_blank" class="btn">Solicitar</a>
+      </div>
+
+      <div class="card">
+        <h2>Micro soldadura</h2>
+        <ul style="text-align:left; line-height:1.8;">
+          <li>🔬 Reballing</li>
+          <li>🔄 Swap</li>
+          <li>🛠️ Otros</li>
+        </ul>
+        <a href="https://wa.me/524612574352?text=Hola,%20quiero%20informes%20sobre%20micro%20soldadura%20🔬" target="_blank" class="btn">Solicitar</a>
+      </div>
+
+      <div class="card">
+        <h2>Software</h2>
+        <ul style="text-align:left; line-height:1.8;">
+          <li>🤖 Android</li>
+          <li>🍏 iOS</li>
+          <li>🖥️ Windows</li>
+          <li>💻 MacOS</li>
+        </ul>
+        <a href="https://wa.me/524612574352?text=Hola,%20quiero%20informes%20sobre%20software%20💻" target="_blank" class="btn">Solicitar</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto">
+    <p>📞 Tel: +52 461 257 4352 | ✉️ soporte@dprphone.com</p>
+    <p>&copy; 2025 DPRPhone - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/524612574352?text=Hola,%20quiero%20cotizar%20mi%20equipo%20📱💻" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
